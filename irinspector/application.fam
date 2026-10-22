@@ -1,0 +1,12 @@
+App(
+    appid="irinspector",
+    name="IR Inspector",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="irinspector_app",
+    stack_size=4 * 1024,
+    fap_category="Tools",
+    fap_icon="irinspector.png",
+    fap_author="Gab / Kapelgy",
+    fap_version="1.0",
+    fap_description="Audit infrarouge de telecommandes de laboratoire",
+)

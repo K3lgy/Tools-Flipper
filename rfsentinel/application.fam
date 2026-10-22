@@ -1,0 +1,12 @@
+App(
+    appid="rfsentinel",
+    name="RF Sentinel",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="rfsentinel_app",
+    stack_size=4 * 1024,
+    fap_category="Tools",
+    fap_icon="rfsentinel.png",
+    fap_author="Gab / Kapelgy",
+    fap_version="1.0",
+    fap_description="Diagnostic radio Sub-GHz autorise",
+)

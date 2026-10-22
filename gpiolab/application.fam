@@ -1,0 +1,12 @@
+App(
+    appid="gpiolab",
+    name="GPIO Lab",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="gpiolab_app",
+    stack_size=4 * 1024,
+    fap_category="Tools",
+    fap_icon="gpiolab.png",
+    fap_author="Gab / Kapelgy",
+    fap_version="1.0",
+    fap_description="Assistant de brochage et diagnostic GPIO",
+)

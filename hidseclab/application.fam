@@ -1,0 +1,12 @@
+App(
+    appid="hidseclab",
+    name="HID Security Lab",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="hidseclab_app",
+    stack_size=4 * 1024,
+    fap_category="Tools",
+    fap_icon="hidseclab.png",
+    fap_author="Gab / Kapelgy",
+    fap_version="1.0",
+    fap_description="Tests de securite USB HID en laboratoire",
+)

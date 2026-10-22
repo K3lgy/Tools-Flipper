@@ -1,0 +1,12 @@
+App(
+    appid="accessaudit",
+    name="AccessAudit",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="accessaudit_app",
+    stack_size=4 * 1024,
+    fap_category="Tools",
+    fap_icon="accessaudit.png",
+    fap_author="Gab / Kapelgy",
+    fap_version="1.0",
+    fap_description="Audit RFID/NFC de badges de test",
+)
